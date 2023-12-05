@@ -1,0 +1,52 @@
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.build
+dist
+build
+.cache
+public/build
+public/global
+
+# Various log files
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Editor directories and files
+.idea
+*.swp
+*.swo
+.vscode
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore git directory and files
+.git
+.gitignore
+
+# Optional: ignore test files
+__tests__
+__mocks__
+
+# Optional: ignore markdown files
+*.md
+
+# Optional: ignore CI/CD files
+.gitlab-ci.yml
+.travis.yml
+appveyor.yml
+Jenkinsfile
+
+# Optional: ignore environmental files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
